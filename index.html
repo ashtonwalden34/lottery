@@ -21,7 +21,7 @@
         <form id="lotto-form" action="javascript: lotteryFunction();">
             <label for="num-input"> Please enter a number between 1 & 8 for how many numbers you would like returned.</label>
             <br>
-            <input type="number" id='num-input' name="num-input" maxlength="1" min="1" max="8" required onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57">
+            <input type="number" id='num-input' name="num-input" min="1" max="8" required onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57">
             <input type="submit" value="submit">
         </form>
            
