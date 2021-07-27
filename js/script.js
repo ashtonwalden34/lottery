@@ -1,27 +1,12 @@
 /*
-Base Assignment
-    1. Get user input for how many numbers --- Force it to be number
-        - Make sure input is in integers
-        - Use JS prompt to get input
-    5. Style html document
-
 Additonal Content (Select 2)
 > Limit the number the user can select to 8 or less
-    - If larger than 8, display error message
 > Allow user to enter number via a web rather than prompt
-    - text box and then hitting enter or submit button
-        - on.click funciton?
+-----------------------------------------------------------
 > Add button that generates new numbers
     - Doesn't ask user to specify quantity of numbers again
         - Uses previously selected amount
 */  
-
-// Prompts the user to enter how many numbers they would like generated and sets it equal to userNum
-                    // var userNum = prompt("How many numbers?");
-
-
-
-
 
 // array to hold lottery numbers
 var lottoNums = [];
